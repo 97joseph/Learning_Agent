@@ -30,6 +30,8 @@ components:	the	frogger module	that	implements	the	game	itself,	and	the	agent mo
 which	houses	the	agent	code.	At	the	top	level,	there	is	a	main.py file	that	accepts	
 command-line	arguments	and	runs	the	simulation.
 
+
+
 The	game	module	uses	the	Python	Arcade	library	[	https://arcade.academy ]	which	
 provides	a	base	engine	on	which	to	build	the	game	itself.	For	this	reason,	you	will	first	
 need	to	install	this	library	on	your	machine	(or,	alternatively,	a	virtual	machine	if	you	
@@ -134,6 +136,8 @@ check	for	legal	positions	on	the	screen	and	to	get	the	cell	character	at	a	posit
 screen. You	should	not	need	to	modify	state.py,	but	most	importantly,	since	your	agent	
 will	eventually	be	tied	into	the	tournament	code,	you	must	ensure	that	the	API	string	
 parsing	remains	the	same	so	that	your	agent	will	work	within	the	tournament.
+![etgvr](https://user-images.githubusercontent.com/33089347/187474835-802f75be-e5a3-4b5d-bba8-2b1d6280b7d3.PNG)
+
 
 The	file	agent.py is	where	you	will	need	to	build	your	RL	agent,	specifically	an	agent	that	
 implements	Q-learning.	The	details	are	provided	in	the	sections	below.
